@@ -107,6 +107,11 @@ section .program h5 {
   color: #f73a01;
 }
 
+.featured-speakers p {
+  margin-top: -8px;
+  font-size: small;
+}
+
 section .program p {
   color: #fff;
 }
@@ -129,6 +134,10 @@ section .main-program hr {
   margin-left: auto;
   margin-right: auto;
   background-color: #f73a01;
+}
+
+footer img {
+  height: 40px;
 }
 
 .featured-speakers img {
@@ -208,6 +217,18 @@ section .past-about .group1 {
   width: fit-content;
 }
 
+.sponsors .col-4 img {
+  width: 80px;
+}
+
+.sponsors .apple img {
+  height: 60px;
+}
+
+.sponsors .airbnb img {
+  height: 50px;
+}
+
 section .past-about .group1 img {
   width: 100%;
 }
@@ -251,27 +272,10 @@ section .past-about .group2 img {
   margin-top: -4px;
 }
 
-.featured-speakers p {
-  margin-top: -8px;
-  font-size: small;
-}
-
 .sponsors {
   padding: 30px 30px 40px;
   background-color: #232425;
   color: #fff;
-}
-
-.sponsors .col-4 img {
-  width: 80px;
-}
-
-.sponsors .apple img {
-  height: 60px;
-}
-
-.sponsors .airbnb img {
-  height: 50px;
 }
 
 .sponsors .row .col {
@@ -282,10 +286,6 @@ section .past-about .group2 img {
 footer {
   background-color: #fff;
   padding: 30px 20px 20px;
-}
-
-footer img {
-  height: 40px;
 }
 
 footer .col-6 {
@@ -336,6 +336,10 @@ footer .col-6 p {
     gap: 20px;
     list-style: none;
     padding: 1px 130px;
+  }
+
+  .main-program h6 a {
+    color: rgb(255 255 255 / 70%);
   }
 
   header .navbar-small ul a {
@@ -401,9 +405,20 @@ footer .col-6 p {
     border: none;
   }
 
+  section .logo-about img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .main-program .program img {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .past-about .row {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
   }
 
   .main-program .desktop-row {
@@ -438,10 +453,6 @@ footer .col-6 p {
     display: none !important;
   }
 
-  .main-program h6 a {
-    color: rgb(255 255 255 / 70%);
-  }
-
   .featured-speakers {
     padding: 30px 150px;
   }
@@ -464,23 +475,12 @@ footer .col-6 p {
     background-color: #fff;
   }
 
-  section .logo-about img {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .past-about {
     background-color: #fff;
   }
 
   .past-about h3 {
     display: flex;
-    justify-content: center;
-  }
-
-  .past-about .row {
-    margin-left: auto;
-    margin-right: auto;
     justify-content: center;
   }
 
