@@ -118,7 +118,7 @@ section .program p {
 
 section .main-program {
   background: rgb(21 24 27 / 70%);
-  background-image: url("../images/squares.png");
+  background-image: url("images/squares.png");
   background-size: 80px;
   padding: 38px 12px;
 }
