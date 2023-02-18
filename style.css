@@ -131,6 +131,10 @@ section .main-program hr {
   background-color: #f73a01;
 }
 
+.featured-speakers img {
+  width: 120px;
+}
+
 section .main-program img {
   width: 60px;
 }
@@ -202,7 +206,6 @@ section .past-about p {
 
 section .past-about .group1 {
   width: fit-content;
-  width: fit-content;
 }
 
 section .past-about .group1 img {
@@ -210,7 +213,6 @@ section .past-about .group1 img {
 }
 
 section .past-about .group2 {
-  width: fit-content;
   width: fit-content;
 }
 
@@ -221,10 +223,6 @@ section .past-about .group2 img {
 .featured-speakers {
   background-color: #fff;
   padding: 38px 12px;
-}
-
-.featured-speakers img {
-  width: 120px;
 }
 
 .featured-speakers .first {
@@ -262,12 +260,6 @@ section .past-about .group2 img {
   padding: 30px 30px 40px;
   background-color: #232425;
   color: #fff;
-}
-
-.sponsors hr {
-  width: 40px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .sponsors .col-4 img {
@@ -376,6 +368,12 @@ footer .col-6 p {
     border: 4px solid #f73a01;
     color: #f73a01;
     border-radius: 2px;
+  }
+
+  .sponsors hr {
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   header .home-div {
